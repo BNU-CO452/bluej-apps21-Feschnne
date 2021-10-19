@@ -7,7 +7,7 @@
  */
 public class Module
 {
-    // instance variables - replace the example below with your own
+    // Variables for the code, title and credit
     private String code;
     private String title;
     private int credit;
@@ -24,10 +24,8 @@ public class Module
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  
-     * @return code 
+     * The next three methods to get the value of the code,
+     * title and credit variables.
      */
     public String getCode()
     {
@@ -44,6 +42,9 @@ public class Module
         return this.credit;
     }
     
+    /* Method to set a value for the module's credit
+     * 
+     */
     public void setCredit(int credit)
     {
         this.credit = credit;

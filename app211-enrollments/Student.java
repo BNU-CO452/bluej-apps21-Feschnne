@@ -9,7 +9,7 @@
  */
 public class Student
 {
-    // A unique 8 digit BNU identifier
+    // A unique 8 digit BNU identifier. In this case mine is: 21910498
     private int id;
     // the student's full name
     private String name;
