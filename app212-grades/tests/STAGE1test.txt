@@ -1,0 +1,50 @@
+Student felipe = new Student("Felipe", 21910498);
+felipe.print();
+ Student ID: 21910498, Felipe
+Course artificialIntelligence = new Course("BB1ARI1", "BSc Artificial Intelligence");
+felipe.enrol(artificialIntelligence);
+felipe.printCourse();
+ Student ID: 21910498, Felipe
+
+ Course BB1ARI1: BSc Artificial Intelligence
+Module co452 = new Module("CO452", "Programming Concepts");
+artificialIntelligence.addModule(co452);
+ModuleMark felipeCO452Mark = new ModuleMark(co452);
+felipeCO452Mark.setMark(77);
+felipe.addMark(felipeCO452Mark);
+felipe.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 21910498, Felipe
+
+ Course BB1ARI1: BSc Artificial Intelligence
+
+ CO452: 	Programming Concepts
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts
+
+ No Final Course Grade Yet!
+felipe.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 21910498, Felipe
+
+ Course BB1ARI1: BSc Artificial Intelligence
+
+ CO452: 	Programming Concepts
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts
+
+ No Final Course Grade Yet!

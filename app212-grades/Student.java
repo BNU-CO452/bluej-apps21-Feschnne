@@ -24,7 +24,7 @@ public class Student
      */
     public Student()
     {
-        this("Derek", 12345678);
+        this("Felipe", 21910498);
     }
     
     /**
@@ -104,7 +104,7 @@ public class Student
     
     private void printModules()
     {
-
+        course.printModules();
     }
     
     public void printTranscript()
@@ -123,6 +123,8 @@ public class Student
         System.out.println(" ---- \t -------------------- \t ------\t ---- \t -----");
         
        
+        printModules();
+        
         Grades finalGrade = course.calculateGrade(marks);
         
         System.out.println();
