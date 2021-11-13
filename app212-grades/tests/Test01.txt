@@ -1,0 +1,17 @@
+
+
+Student felipe = new Student("Felipe", 21910498);
+Course artificialintelligence = new Course("BB1AR|1", "BSc Artificial Intelligence");
+felipe.print();
+
+
+ Student ID: 21910498 Name: Felipe
+
+artificialintelligence.print();
+
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BB1AR|1: BSc Artificial Intelligence
+
