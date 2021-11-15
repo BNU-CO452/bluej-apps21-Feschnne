@@ -53,17 +53,20 @@ public class Product
     {
         return quantity;
     }
-
+    
+    //set an integer quantity for each product at the beggining
     public void setQuantity(int quantity)
     {
         this.quantity = quantity;
     }
     
+    //quantity is increased with the amount bought
     public void increaseQuantity(int amount)
     {
         quantity = quantity + amount;
     }
     
+    //quantity is decreased with the amount sold
     public void decreaseQuantity(int amount)
     {
         if(quantity >= amount)
@@ -78,7 +81,7 @@ public class Product
         return " ID " + id + ": " +  name + " stock level: " + quantity;
     }
 
-    
+    // prints product id + name + stock level quantity    
     public void print()
     {
         System.out.println(toString());
