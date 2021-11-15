@@ -1,0 +1,199 @@
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Iphone 13 Pro Max stock level: 0
+ ID 105: Play Station 5 stock level: 0
+ ID 106: Play Station 4 stock level: 0
+ ID 107: Apple MacBook 2021 stock level: 0
+ ID 108: Apple AirPods 2nd Gen stock level: 0
+ ID 109: Apple AirPods Pro stock level: 0
+ ID 110: Apple Watch Series 6 stock level: 0
+
+Bought 500 units of Samsung Galaxy S20
+Bought 200 units of Apple iPhone 12
+Bought 100 units of Google Pixel 4A
+Bought 800 units of Iphone 13 Pro Max
+Bought 250 units of Play Station 5
+Bought 450 units of Play Station 4
+Bought 600 units of Apple MacBook 2021
+Bought 200 units of Apple AirPods 2nd Gen
+Bought 900 units of Apple AirPods Pro
+Bought 150 units of Apple Watch Series 6
+
+    Schol's 717 Store Stock List   
+ ==================================
+
+ ID 101: Samsung Galaxy S20 stock level: 500
+ ID 102: Apple iPhone 12 stock level: 200
+ ID 103: Google Pixel 4A stock level: 100
+ ID 104: Iphone 13 Pro Max stock level: 800
+ ID 105: Play Station 5 stock level: 250
+ ID 106: Play Station 4 stock level: 450
+ ID 107: Apple MacBook 2021 stock level: 600
+ ID 108: Apple AirPods 2nd Gen stock level: 200
+ ID 109: Apple AirPods Pro stock level: 900
+ ID 110: Apple Watch Series 6 stock level: 150
+
+Sold 300 units of Samsung Galaxy S20
+Sold 125 units of Apple iPhone 12
+Sold 71 units of Google Pixel 4A
+Sold 486 units of Iphone 13 Pro Max
+Sold 121 units of Play Station 5
+Sold 371 units of Play Station 4
+Sold 456 units of Apple MacBook 2021
+Sold 105 units of Apple AirPods 2nd Gen
+Sold 717 units of Apple AirPods Pro
+Sold 56 units of Apple Watch Series 6
+
+    Schol's 717 Store Stock List   
+ ==================================
+
+ ID 101: Samsung Galaxy S20 stock level: 200
+ ID 102: Apple iPhone 12 stock level: 75
+ ID 103: Google Pixel 4A stock level: 29
+ ID 104: Iphone 13 Pro Max stock level: 314
+ ID 105: Play Station 5 stock level: 129
+ ID 106: Play Station 4 stock level: 79
+ ID 107: Apple MacBook 2021 stock level: 144
+ ID 108: Apple AirPods 2nd Gen stock level: 95
+ ID 109: Apple AirPods Pro stock level: 183
+ ID 110: Apple Watch Series 6 stock level: 94
+
+StockDemo felipeDemo = new StockDemo();
+
+===================================
+      Schol's Store Stock List     
+ ==================================
+
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Iphone 13 Pro Max stock level: 0
+ ID 105: Play Station 5 stock level: 0
+ ID 106: Play Station 4 stock level: 0
+ ID 107: Apple MacBook 2021 stock level: 0
+ ID 108: Apple AirPods 2nd Gen stock level: 0
+ ID 109: Apple AirPods Pro stock level: 0
+ ID 110: Apple Watch Series 6 stock level: 0
+
+Bought 500 units of Samsung Galaxy S20
+Bought 200 units of Apple iPhone 12
+Bought 100 units of Google Pixel 4A
+Bought 800 units of Iphone 13 Pro Max
+Bought 250 units of Play Station 5
+Bought 450 units of Play Station 4
+Bought 600 units of Apple MacBook 2021
+Bought 200 units of Apple AirPods 2nd Gen
+Bought 900 units of Apple AirPods Pro
+Bought 150 units of Apple Watch Series 6
+
+===================================
+      Schol's Store Stock List     
+ ==================================
+
+ ID 101: Samsung Galaxy S20 stock level: 500
+ ID 102: Apple iPhone 12 stock level: 200
+ ID 103: Google Pixel 4A stock level: 100
+ ID 104: Iphone 13 Pro Max stock level: 800
+ ID 105: Play Station 5 stock level: 250
+ ID 106: Play Station 4 stock level: 450
+ ID 107: Apple MacBook 2021 stock level: 600
+ ID 108: Apple AirPods 2nd Gen stock level: 200
+ ID 109: Apple AirPods Pro stock level: 900
+ ID 110: Apple Watch Series 6 stock level: 150
+
+Sold 300 units of Samsung Galaxy S20
+Sold 125 units of Apple iPhone 12
+Sold 71 units of Google Pixel 4A
+Sold 486 units of Iphone 13 Pro Max
+Sold 121 units of Play Station 5
+Sold 371 units of Play Station 4
+Sold 456 units of Apple MacBook 2021
+Sold 105 units of Apple AirPods 2nd Gen
+Sold 717 units of Apple AirPods Pro
+Sold 56 units of Apple Watch Series 6
+
+===================================
+      Schol's Store Stock List     
+ ==================================
+
+ ID 101: Samsung Galaxy S20 stock level: 200
+ ID 102: Apple iPhone 12 stock level: 75
+ ID 103: Google Pixel 4A stock level: 29
+ ID 104: Iphone 13 Pro Max stock level: 314
+ ID 105: Play Station 5 stock level: 129
+ ID 106: Play Station 4 stock level: 79
+ ID 107: Apple MacBook 2021 stock level: 144
+ ID 108: Apple AirPods 2nd Gen stock level: 95
+ ID 109: Apple AirPods Pro stock level: 183
+ ID 110: Apple Watch Series 6 stock level: 94
+
+StockDemo felipeDemo = new StockDemo();
+
+ ==================================
+      Schol's Store Stock List     
+ ==================================
+
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Iphone 13 Pro Max stock level: 0
+ ID 105: Play Station 5 stock level: 0
+ ID 106: Play Station 4 stock level: 0
+ ID 107: Apple MacBook 2021 stock level: 0
+ ID 108: Apple AirPods 2nd Gen stock level: 0
+ ID 109: Apple AirPods Pro stock level: 0
+ ID 110: Apple Watch Series 6 stock level: 0
+
+Bought 500 units of Samsung Galaxy S20
+Bought 200 units of Apple iPhone 12
+Bought 100 units of Google Pixel 4A
+Bought 800 units of Iphone 13 Pro Max
+Bought 250 units of Play Station 5
+Bought 450 units of Play Station 4
+Bought 600 units of Apple MacBook 2021
+Bought 200 units of Apple AirPods 2nd Gen
+Bought 900 units of Apple AirPods Pro
+Bought 150 units of Apple Watch Series 6
+
+ ==================================
+      Schol's Store Stock List     
+ ==================================
+
+ ID 101: Samsung Galaxy S20 stock level: 500
+ ID 102: Apple iPhone 12 stock level: 200
+ ID 103: Google Pixel 4A stock level: 100
+ ID 104: Iphone 13 Pro Max stock level: 800
+ ID 105: Play Station 5 stock level: 250
+ ID 106: Play Station 4 stock level: 450
+ ID 107: Apple MacBook 2021 stock level: 600
+ ID 108: Apple AirPods 2nd Gen stock level: 200
+ ID 109: Apple AirPods Pro stock level: 900
+ ID 110: Apple Watch Series 6 stock level: 150
+
+Sold 300 units of Samsung Galaxy S20
+Sold 125 units of Apple iPhone 12
+Sold 71 units of Google Pixel 4A
+Sold 486 units of Iphone 13 Pro Max
+Sold 121 units of Play Station 5
+Sold 371 units of Play Station 4
+Sold 456 units of Apple MacBook 2021
+Sold 105 units of Apple AirPods 2nd Gen
+Sold 717 units of Apple AirPods Pro
+Sold 56 units of Apple Watch Series 6
+
+ ==================================
+      Schol's Store Stock List     
+ ==================================
+
+ ID 101: Samsung Galaxy S20 stock level: 200
+ ID 102: Apple iPhone 12 stock level: 75
+ ID 103: Google Pixel 4A stock level: 29
+ ID 104: Iphone 13 Pro Max stock level: 314
+ ID 105: Play Station 5 stock level: 129
+ ID 106: Play Station 4 stock level: 79
+ ID 107: Apple MacBook 2021 stock level: 144
+ ID 108: Apple AirPods 2nd Gen stock level: 95
+ ID 109: Apple AirPods Pro stock level: 183
+ ID 110: Apple Watch Series 6 stock level: 94
+
