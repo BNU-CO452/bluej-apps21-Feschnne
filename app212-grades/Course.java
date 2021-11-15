@@ -1,9 +1,12 @@
 import java.util.ArrayList;
 /**
  * This class stores information about a course
- * that enrolled students may want to complete
+ * that enrolled students may want to complete.
  *
- * @author Felipe
+ * @author Derek Peacock and Nicholas Day
+ * 
+ * modified by Felipe
+ * 
  * @version 0.1 15/11/2021
  */
 public class Course
@@ -43,7 +46,14 @@ public class Course
      */
     public void createModules()
     {
-        
+        Module co452 = new Module("CO452","Programming Concepts");
+        Module co450 = new Module("CO450","Computer Architectures");
+        Module co456 = new Module("CO456","Web Development  ");
+        Module co407 = new Module("CO407","Essentials of IS");
+        addModule(co452);
+        addModule(co450);
+        addModule(co456);
+        addModule(co407);
     }
     
     public void addModule(Module module)
@@ -55,20 +65,42 @@ public class Course
     }
     
     /**
-     * 
+     * Method in which the mark is assigned to a grade.
      */
     public Grades convertToGrade(int mark)
     {
-        return Grades.NS;
+        if (mark >= 0 && mark <=39)
+            return Grades.F;
+        else if (mark <= 49)
+            return Grades.D;
+        else if (mark <= 59)
+            return Grades.C;
+        else if (mark <= 69)
+            return Grades.B;
+        else if (mark <= 100)
+            return Grades.A;
+        else
+            return Grades.NS;
     }
     
     /**
-     * Calculate the average mark from the four module marks
-     * and convert that into a final grade.
+     * Method to calculate the average mark from the four module marks
+     * and convert it into a final grade.
      */
     public Grades calculateGrade(ArrayList<ModuleMark> marks)
     {
-        return Grades.NS;
+        int total = 0;
+        int finalMark = 0;
+        
+        for (ModuleMark mark : marks)
+        {
+            total = total + mark.getValue();
+        }
+        
+        finalMark = total / MAXN_MODULES;
+        finalGrade = convertToGrade(finalMark);
+        
+        return finalGrade;
     }
     
     /**
@@ -85,7 +117,7 @@ public class Course
     }
     
     /**
-     * Print the course's four modules
+     * Print the course's four modules plus the credits.
      */
     public void printModules()
     {

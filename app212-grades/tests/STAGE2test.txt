@@ -1,0 +1,199 @@
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452:	Programming Concepts	  15	77 A
+
+
+ Final Course Grade = F
+Student felipe = new Student();
+Course artificialIntelligence = new Course();
+Module co452 = new Module("CO452", "Programming Concepts");
+artificialIntelligence.addModule(co452);
+felipe.enrol(artificialIntelligence);
+ModuleMark felipeCO452Mark = new ModuleMark(co452);
+felipeCO452Mark.setMark(77);
+felipe.addMark(felipeCO452Mark);
+Module co450 = new Module("CO450", "Computer Architectures");
+artificialIntelligence.addModule(co450);
+ModuleMark felipeCO450Mark = new ModuleMark(co450);
+felipeCO450Mark.setMark(84);
+felipe.addMark(felipeCO450Mark);
+felipe.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 21910498, Felipe
+
+ Course BB1ARI1: BSc Artificial Intelligence
+
+ CO452:	Programming Concepts	  15 credits
+ CO450:	Computer Architectures	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452:	Programming Concepts	  15	77    A
+
+ CO450:	Computer Architectures	  15	84    A
+
+
+ Final Course Grade = D
+Student felipe = new Student();
+Course artificialIntelligence = new Course();
+felipe.enrol(artificialIntelligence);
+felipe.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 21910498, Felipe
+
+ Course BB1ARI1: BSc Artificial Intelligence
+
+ CO452:	Programming Concepts	  15 credits
+ CO450:	Computer Architectures	  15 credits
+ CO456:	Web Development	  15 credits
+ CO407:	Essentials of Intelligent Systems	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452:	Programming Concepts	  15	77    A
+
+ CO450:	Computer Architectures	  15	77    A
+
+ CO456:	Web Development	  15	77    A
+
+ CO407:	Essentials of Intelligent Systems	  15	77    A
+
+
+ Final Course Grade = A
+Student felipe = new Student();
+Course artificialIntelligence = new Course();
+felipe.enrol(artificialIntelligence);
+Student felipe = new Student();
+Course artificialIntelligence = new Course();
+felipe.enrol(artificialIntelligence);
+felipe.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 21910498, Felipe
+
+ Course BB1ARI1: BSc Artificial Intelligence
+
+ CO452:	Programming Concepts	  15 credits
+ CO450:	Computer Architectures	  15 credits
+ CO456:	Web Development	  15 credits
+ CO407:	Essentials of Intelligent Systems	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452:	Programming Concepts	  15	77    A
+
+ CO450:	Computer Architectures	  15	67    B
+
+ CO456:	Web Development	  15	57    C
+
+ CO407:	Essentials of Intelligent Systems	  15	47    D
+
+
+ Final Course Grade = B
+Student felipe = new Student();
+Course artificialIntelligence = new Course();
+felipe.enrol(artificialIntelligence);
+felipe.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 21910498, Felipe
+
+ Course BB1ARI1: BSc Artificial Intelligence
+
+ CO452:	Programming Concepts	  15 credits
+ CO450:	Computer Architectures	  15 credits
+ CO456:	Web Development	  15 credits
+ CO407:	Essentials of IS	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452:	Programming Concepts	  15	77    A
+
+ CO450:	Computer Architectures	  15	67    B
+
+ CO456:	Web Development	  15	57    C
+
+ CO407:	Essentials of IS	  15	47    D
+
+
+ Final Course Grade = B
+Student felipe = new Student();
+Course artificialIntelligence = new Course();
+felipe.enrol(artificialIntelligence);
+felipe.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 21910498, Felipe
+
+ Course BB1ARI1: BSc Artificial Intelligence
+
+ CO452:	Programming Concepts	  15 credits
+ CO450:	Computer Architectures	  15 credits
+ CO456:	Web Development  	  15 credits
+ CO407:	Essentials of IS	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452:	Programming Concepts	  15	77    A
+
+ CO450:	Computer Architectures	  15	67    B
+
+ CO456:	Web Development  	  15	57    C
+
+ CO407:	Essentials of IS	  15	47    D
+
+
+ Final Course Grade = B
+Student felipe = new Student();
+Course artificialIntelligence = new Course();
+felipe.enrol(artificialIntelligence);
+felipe.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Felipe Schol
+ ------------------------------------
+ Student ID: 21910498, Felipe
+
+ Course BB1ARI1: BSc Artificial Intelligence
+
+ CO452:	Programming Concepts	  15 credits
+ CO450:	Computer Architectures	  15 credits
+ CO456:	Web Development  	  15 credits
+ CO407:	Essentials of IS	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452:	Programming Concepts	  15	77    A
+
+ CO450:	Computer Architectures	  15	67    B
+
+ CO456:	Web Development  	  15	57    C
+
+ CO407:	Essentials of IS	  15	47    D
+
+
+ Final Course Grade = B
