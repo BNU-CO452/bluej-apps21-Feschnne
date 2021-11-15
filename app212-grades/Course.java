@@ -3,8 +3,8 @@ import java.util.ArrayList;
  * This class stores information about a course
  * that enrolled students may want to complete
  *
- * @author Derek Peacock and Nicholas Day
- * @version 0.1 11/Sep/2020
+ * @author Felipe
+ * @version 0.1 15/11/2021
  */
 public class Course
 {
@@ -92,6 +92,7 @@ public class Course
         for (Module module : modules)
         {
             module.print();
+            module.printCredit();
         }
     }
 }

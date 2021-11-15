@@ -104,7 +104,10 @@ public class Student
     
     private void printModules()
     {
-        course.printModules();
+        for (ModuleMark moduleMark : marks)
+        {
+            moduleMark.print();
+        }
     }
     
     public void printTranscript()
