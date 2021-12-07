@@ -1,0 +1,112 @@
+quit
+Program.main({ });
+================================
+  App21-04: Stock Application 
+    by Felipe Schol Negrin
+================================
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Sell:       Sell stock
+    Buy:        Buy stock
+    Search:     Search through ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ ==================================
+      Schol's Store Stock List     
+ ==================================
+
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Iphone 13 Pro Max stock level: 0
+ ID 105: Play Station 5 stock level: 0
+ ID 106: Play Station 4 stock level: 0
+ ID 107: Apple MacBook 2021 stock level: 0
+ ID 108: Apple AirPods 2nd Gen stock level: 0
+ ID 109: Apple AirPods Pro stock level: 0
+ ID 110: Apple Watch Series 6 stock level: 0
+
+================================
+  App21-04: Stock Application 
+    by Felipe Schol Negrin
+================================
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Sell:       Sell stock
+    Buy:        Buy stock
+    Search:     Search through ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > quit
+Program.main({ });
+================================
+  App21-04: Stock Application 
+    by Felipe Schol Negrin
+================================
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Sell:       Sell stock
+    Buy:        Buy stock
+    Search:     Search through ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+Please enter the ID: 
+111
+Please enter the name of the product: TestinBox product
+----------------------------------------
+Product 111, TestinBox product has been ADDED
+----------------------------------------
+================================
+  App21-04: Stock Application 
+    by Felipe Schol Negrin
+================================
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Sell:       Sell stock
+    Buy:        Buy stock
+    Search:     Search through ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ ==================================
+      Schol's Store Stock List     
+ ==================================
+
+ ID 101: Samsung Galaxy S20 stock level: 0
+ ID 102: Apple iPhone 12 stock level: 0
+ ID 103: Google Pixel 4A stock level: 0
+ ID 104: Iphone 13 Pro Max stock level: 0
+ ID 105: Play Station 5 stock level: 0
+ ID 106: Play Station 4 stock level: 0
+ ID 107: Apple MacBook 2021 stock level: 0
+ ID 108: Apple AirPods 2nd Gen stock level: 0
+ ID 109: Apple AirPods Pro stock level: 0
+ ID 110: Apple Watch Series 6 stock level: 0
+ ID 111: TestinBox product stock level: 0
+
+================================
+  App21-04: Stock Application 
+    by Felipe Schol Negrin
+================================
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Sell:       Sell stock
+    Buy:        Buy stock
+    Search:     Search through ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 

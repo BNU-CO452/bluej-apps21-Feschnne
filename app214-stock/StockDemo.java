@@ -1,4 +1,4 @@
-
+import java.util.Random;
 /**
  * Demonstrate the StockManager and Product classes.
  * The demonstration becomes properly functional as
@@ -14,13 +14,15 @@ public class StockDemo
 {
     // The stock manager.
     private StockList stock;
+    private Random random;
 
     /**
      * Stockmanager with our 10 products we are selling. 
      */
-    public StockDemo()
+    public StockDemo(StockList stock)
     {
-        this.stock = new StockList();
+        this.stock = stock;
+        this.random = new Random();
     
         stock.add(new Product(101, "Samsung Galaxy S20"));
         stock.add(new Product(102, "Apple iPhone 12"));
@@ -32,7 +34,6 @@ public class StockDemo
         stock.add(new Product(108, "Apple AirPods 2nd Gen"));
         stock.add(new Product(109, "Apple AirPods Pro"));
         stock.add(new Product(110, "Apple Watch Series 6"));
-        runDemo();
     }
     
     /**
@@ -53,37 +54,21 @@ public class StockDemo
     }
     
     /**
-     * Specifies how many units have we bought for each product. 
+     * Random amount of items bought
      */
     
     private void buyProducts()
     {
-        stock.buyProduct(101, 500);
-        stock.buyProduct(102, 200);
-        stock.buyProduct(103, 100);
-        stock.buyProduct(104, 800);
-        stock.buyProduct(105, 250);
-        stock.buyProduct(106, 450);
-        stock.buyProduct(107, 600);
-        stock.buyProduct(108, 200);
-        stock.buyProduct(109, 900);
-        stock.buyProduct(110, 150);
+        for (int prodId = 101; prodId <=110; prodId++)
+        stock.buyProduct(prodId, random.nextInt(11));
     }
 
     /**
-     * Specifies how many units have we sold for each product.
+     * Random amount of items sold
      */
     private void sellProducts()
     {
-        stock.sellProduct(101, 300);
-        stock.sellProduct(102, 125);
-        stock.sellProduct(103, 71);
-        stock.sellProduct(104, 486);
-        stock.sellProduct(105, 121);
-        stock.sellProduct(106, 371);
-        stock.sellProduct(107, 456);
-        stock.sellProduct(108, 105);
-        stock.sellProduct(109, 717);
-        stock.sellProduct(110, 56);
+        for (int prodId = 101; prodId <= 110; prodId++)
+        stock.sellProduct(prodId, random.nextInt(11));
     }    
 }

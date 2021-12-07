@@ -30,22 +30,31 @@ public class StockList
         stock.add(item);
     }
     
+    public void remove(int prodId)
+    {
+        Product product = findProduct(prodId);
+        if(product != null)
+        {
+            stock.remove(product);
+        }
+    }
+    
     /**
      * A method to buy a single quantity of the product
      */
-    public void buyProduct(int productID)
+    public void buyProduct(int prodId)
     {
-        buyProduct(productID, 1);
+        buyProduct(prodId, 1);
     }
-    
     
     /**
      * Buy a quantity of a particular product.
      * Increase the quantity of the product by the given amount.
      */
-    public void buyProduct(int productID, int amount)
+    public void buyProduct(int prodId, int amount)
     {
-        Product product = findProduct(productID);
+        Product product = findProduct(prodId);
+        
         if(product != null) 
         {
             if(product.getQuantity() < 1000)
@@ -69,11 +78,11 @@ public class StockList
      * Find a product to match the product id,
      * if not found return null
      */
-    public Product findProduct(int productID)
+    public Product findProduct(int prodId)
     {
         for (Product product : stock)
         {
-            if(product.getID() == productID)
+            if(product.getID() == prodId)
             {
                 return product;
             }
@@ -94,13 +103,13 @@ public class StockList
      * Sell many of the given product.
      * Show the before and after status of the product.
      */
-    public void sellProduct(int productID, int amount)
+    public void sellProduct(int prodId, int amount)
     {
-        Product product = findProduct(productID);
+        Product product = findProduct(prodId);
         
         if(product != null) 
         {
-            if(product.getQuantity() > 0 && product.getQuantity() > amount)
+            if(product.getQuantity() > 0 && product.getQuantity() >= amount)
             {
                 product.decreaseQuantity(amount);
                 System.out.println("Sold " + amount + " units of " 
@@ -124,12 +133,18 @@ public class StockList
         }
     }    
 
-    
+    public void search(String phrase)
+    {
+        if(phrase.contains("Apple"))
+        {
+            System.out.println(stock);
+        }
+    }
     /**
      * Locate a product with the given ID, and return how
      * many of this item are in stock. 
      */
-    public int numberInStock(int productID)
+    public int numberInStock(int prodId)
     {
         return 0;
     }
@@ -138,9 +153,9 @@ public class StockList
      * Print details of the given product. If found,
      * its name and stock quantity will be shown.
      */
-    public void printProduct(int productID)
+    public void printProduct(int prodId)
     {
-        Product product = findProduct(productID);
+        Product product = findProduct(prodId);
         
         if(product != null) 
         {

@@ -21,7 +21,7 @@ public class StockApp
         reader = new InputReader();
         
         stock = new StockList();
-        //StockDemo demo = new StockDemo(stock);
+        StockDemo demo = new StockDemo(stock);
     }
 
     /**
@@ -52,14 +52,74 @@ public class StockApp
         else if(choice.equals("add"))
         {
             
-            int id = reader.getInt("Please enter the ID: ");
-            String name = reader.getString("Please enter the name of the product: ");
-            Product product = new Product(id, name);   
+            int prodId = reader.getInt("Please enter the ID: ");
+            String prodName = reader.getString("Please enter the name of the product: ");
+            Product product = new Product(prodId, prodName); 
+            
             stock.add(product);
+            
+            System.out.println("----------------------------------------");
             System.out.println("Product " + product.getID() + ", "
             + product.getName() + " has been ADDED");
+            System.out.println("----------------------------------------");
+            
         }
-        else if(choice.equals("print"))
+        
+        else if (choice.equals("remove"))
+        {
+            int prodId = reader.getInt("Please enter the ID: ");
+            Product product = stock.findProduct(prodId);
+            
+            stock.remove(prodId);
+            
+            System.out.println("----------------------------------------");
+            System.out.println("Product " + product.getID() + ", " 
+            + product.getName() + " has beem REMOVED"); 
+            System.out.println("----------------------------------------");
+        }
+        
+        else if (choice.equals("buy"))
+        {
+            int amount = reader.getInt("How many units do you want to buy: ");
+            int prodId = reader.getInt("Please enter the ID: ");
+            Product product = stock.findProduct(prodId);
+            
+            stock.buyProduct(prodId, amount);
+            
+            System.out.println("----------------------------------------");
+            System.out.println(amount + " units of " + product.getID() + ", " 
+            + product.getName() + " have been BOUGHT");
+            System.out.println("----------------------------------------");
+        }
+        
+        else if (choice.equals("sell"))
+        {
+            int amount = reader.getInt("How many units do you want to sell: ");
+            int prodId = reader.getInt("Please enter the ID: ");
+            Product product = stock.findProduct(prodId);
+            
+            stock.sellProduct(prodId, amount);
+            
+            System.out.println("----------------------------------------");
+            System.out.println(amount + " units of" + product.getID() + ", " 
+            + product.getName() + " have been SOLD");
+            System.out.println("----------------------------------------");
+            
+        }
+        
+        else if (choice.equals("search"))
+        {
+            int prodId = reader.getInt("Please enter the ID of the item you are looking for: ");
+            Product product = stock.findProduct(prodId);
+            
+            System.out.println("----------------------------------------");
+            System.out.println("ID searched " + product.getID()
+            + " ,this product is " + product.getName());
+            System.out.println("----------------------------------------");
+            
+            
+        }
+        else if (choice.equals("print"))
         {
             stock.print();
         }
@@ -75,6 +135,9 @@ public class StockApp
         System.out.println();
         System.out.println("    Add:        Add a new product");
         System.out.println("    Remove:     Remove an old product");
+        System.out.println("    Sell:       Sell stock");
+        System.out.println("    Buy:        Buy stock");
+        System.out.println("    Search:     Search through ID");
         System.out.println("    Print:      Print all products");
         System.out.println("    Quit:       Quit the program");
         System.out.println();        
@@ -85,9 +148,9 @@ public class StockApp
      */
     private void printHeading()
     {
-        System.out.println("********************************");
+        System.out.println("================================");
         System.out.println("  App21-04: Stock Application ");
         System.out.println("    by Felipe Schol Negrin");
-        System.out.println("********************************");
+        System.out.println("================================");
     }
 }
